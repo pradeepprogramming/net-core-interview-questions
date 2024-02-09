@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/DemoWebApiForLearning.csproj": {}
+    "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/SolidPrinciple/SolidPrinciple.csproj": {}
   },
   "projects": {
-    "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/DemoWebApiForLearning.csproj": {
+    "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/SolidPrinciple/SolidPrinciple.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/DemoWebApiForLearning.csproj",
-        "projectName": "DemoWebApiForLearning",
-        "projectPath": "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/DemoWebApiForLearning.csproj",
+        "projectUniqueName": "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/SolidPrinciple/SolidPrinciple.csproj",
+        "projectName": "SolidPrinciple",
+        "projectPath": "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/SolidPrinciple/SolidPrinciple.csproj",
         "packagesPath": "/Users/map/.nuget/packages/",
-        "outputPath": "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/obj/",
+        "outputPath": "/Users/map/Documents/Projects/DemoProjects/net-core-interview-questions/SolidPrinciple/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/map/.nuget/NuGet/NuGet.Config"
@@ -21,7 +21,6 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,16 +38,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.14, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,9 +50,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
